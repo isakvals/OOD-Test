@@ -14,4 +14,5 @@ The split can be found in the "split" column of *index_oodtest.csv*. OOD Test ha
 - The test and training sets include 295 and 18,402 complexes respectively.
 
 ## Comparison with CASF-2016
-![alt text](https://github.com/isakvals/OOD-Test/max_similarity_OOD_Test.png?raw=true)
+Maximum similarity of training complexes to test complexes in CASF v2016 (orange) and OOD Test (blue), in terms of ligand Tanimoto similarity (left), protein sequence similarity (middle), and protein-ligand interaction similarity (right). We use Tanimoto similarity of PLEC fingerprints to estimate protein-ligand interaction similarity.
+![alt text](max_similarity_OOD_Test.png)
