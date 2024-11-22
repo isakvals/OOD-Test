@@ -12,3 +12,6 @@ The split can be found in the "split" column of *index_oodtest.csv*. OOD Test ha
 - The test set excludes heavy ligands (molecular weight > 1000 Da) and ligands with more than 20 rotatable bonds.
 - There is no Pocket Pfam cluster overlap between the training and test datapoints. The Pocket Pfam clusters are defined by Zhu et al. in *Assessment of the Generalization Abilities of Machine-Learning Scoring Functions for Structure-Based Virtual Screening (JCIM, 2022)*.
 - The test and training sets include 295 and 18,402 complexes respectively.
+
+## Comparison with CASF-2016
+![alt text](https://github.com/isakvals/OOD-Test/max_similarity_OOD_Test.png?raw=true)
